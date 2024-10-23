@@ -347,6 +347,7 @@ main {
   background-image: url("../img/upload-button.svg");
   background-repeat: no-repeat;
   background-position: center;
+  transition: 0.4s;
 
   -webkit-filter: drop-shadow(0 0 10px #943106);
           filter: drop-shadow(0 0 10px #943106);
@@ -354,6 +355,7 @@ main {
 
 .img-upload__label:hover::after,
 .img-upload__label:active::after {
+
   -webkit-filter: drop-shadow(0 0 10px #622104);
           filter: drop-shadow(0 0 10px #622104);
 
